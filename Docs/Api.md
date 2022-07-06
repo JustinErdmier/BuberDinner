@@ -13,8 +13,8 @@
 
 ### Register
 
-```js
-POST [host] / auth / register
+```http request
+POST {{host}}/auth/register
 ```
 
 #### Register Request
@@ -47,8 +47,8 @@ OK
 
 ### Login
 
-```js
-POST [host] / auth / login
+```http request
+POST {{host}}/auth/login
 ```
 
 #### Login Request
