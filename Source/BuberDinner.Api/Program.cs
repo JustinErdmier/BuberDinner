@@ -1,5 +1,4 @@
 using BuberDinner.Application;
-using BuberDinner.Application.Services.Authentication;
 using BuberDinner.Infrastructure;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
