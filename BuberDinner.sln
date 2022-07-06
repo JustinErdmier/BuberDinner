@@ -16,6 +16,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{8A26C550-999A-4D9E-B926-CF8B1A35746D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{5AB695BD-D307-4709-B210-07B9DF41624A}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\Api.md = Docs\Api.md
+		Docs\DomainModels.md = Docs\DomainModels.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{1BE72E49-A52A-4684-B367-87D5C33E4F1E}"
 	ProjectSection(SolutionItems) = preProject
