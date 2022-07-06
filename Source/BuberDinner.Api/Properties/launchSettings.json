@@ -1,28 +1,26 @@
 ﻿{
-  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "$schema":     "https://json.schemastore.org/launchsettings.json",
   "iisSettings": {
-    "windowsAuthentication": false,
+    "windowsAuthentication":   false,
     "anonymousAuthentication": true,
-    "iisExpress": {
+    "iisExpress":              {
       "applicationUrl": "http://localhost:51187",
-      "sslPort": 44392
+      "sslPort":        44392
     }
   },
-  "profiles": {
+  "profiles":    {
     "BuberDinner.Api": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7224;http://localhost:5201",
+      "commandName":          "Project",
+      "dotnetRunMessages":    true,
+      "launchBrowser":        false,
+      "applicationUrl":       "https://localhost:7224;http://localhost:5201",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "swagger",
+    "IIS Express":     {
+      "commandName":          "IISExpress",
+      "launchBrowser":        false,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
